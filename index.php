@@ -8,7 +8,7 @@
 		<h1>My First Web Page</h1>
 
 		<p>
-			Hello World! Again! Yay!!
+			Hello GitHub and Heroku!
 		</p>
 	</body>
 </html>
