@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Joey Endicott's CS 516 Project</title>
@@ -21,21 +21,19 @@
 					<li><a href ="quotes.php">Quotes</a></li>
 					<li><a href ="hierarchy.php">Site Hierarchy</a></li>
 					<li><a href ="signin.php">Sign in</a></li>
-					<li><a href ="registration.php">Registration</a></li>
-				</ul>
+					<li><a href ="registration.php">Registration</a></li>				</ul>
 			</div>
 
 			<div id="article">
-				<h1>Home Page</h1>
-				<p>Welcome to my CS 516 Project.  Feel free to look around!!</p>
+				<h1>Hiking</h1>
+				<p>Weiser is about 30 miles from Sturgill Peak in the Payette National Forest.</p>
 				<div class="polaroid">
-					<img src="homepage.jpg" alt="photo of site author, Joey" style="width:100%">
+					<img src="hiking.jpg" alt="photo of 3 hikers" style="width:100%">
 					<div class="container">
-						<p>My husband and I biking the Boise River Greenbelt</p>
+						<p>Hiking with my viking friends Joe and Doug</p>
 					</div>
 				</div>
 			</div>
-			
 		</section>
 
 		<footer>

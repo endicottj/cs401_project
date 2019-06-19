@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Joey Endicott's CS 516 Project</title>
@@ -21,21 +21,25 @@
 					<li><a href ="quotes.php">Quotes</a></li>
 					<li><a href ="hierarchy.php">Site Hierarchy</a></li>
 					<li><a href ="signin.php">Sign in</a></li>
-					<li><a href ="registration.php">Registration</a></li>
-				</ul>
+					<li><a href ="registration.php">Registration</a></li>				</ul>
 			</div>
 
 			<div id="article">
-				<h1>Home Page</h1>
-				<p>Welcome to my CS 516 Project.  Feel free to look around!!</p>
+				<h1>Thich Nhat Hanh</h1>
+				<p>Beginner's Mind is a Buddhist sangha in Boise in the tradition of the Vietnamese monk, Thich Nhat Hanh.</p>
 				<div class="polaroid">
-					<img src="homepage.jpg" alt="photo of site author, Joey" style="width:100%">
-					<div class="container">
-						<p>My husband and I biking the Boise River Greenbelt</p>
+					<img src="thaysisterkhongaltar.jpg" alt="Buddhist altar with photo of monk and nun" style="width:100%">
+					<div class= "container">
+						<p>A Buddhist altar in Boise with photos of Thich Nhat Hanh and Sister Chan Khong</p>
+					</div>
+				</div>
+				<div class="polaroid">
+					<img src="thaycalligraphy.jpg" alt="Calligraphy from Thich Nhat Hanh" style="width:100%">
+					<div class = "container">
+						<p>A Buddhist altar in Boise with photos of Thich Nhat Hanh and Sister Chan Khong</p>
 					</div>
 				</div>
 			</div>
-			
 		</section>
 
 		<footer>

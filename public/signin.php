@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+<?php
+	session_start();
+	var_dump($_SESSION);
+?>
+
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Joey Endicott's CS 516 Project</title>
@@ -21,19 +26,23 @@
 					<li><a href ="quotes.php">Quotes</a></li>
 					<li><a href ="hierarchy.php">Site Hierarchy</a></li>
 					<li><a href ="signin.php">Sign in</a></li>
-					<li><a href ="registration.php">Registration</a></li>
-				</ul>
+					<li><a href ="registration.php">Registration</a></li>				</ul>
 			</div>
 
 			<div id="article">
-				<h1>Home Page</h1>
-				<p>Welcome to my CS 516 Project.  Feel free to look around!!</p>
-				<div class="polaroid">
-					<img src="homepage.jpg" alt="photo of site author, Joey" style="width:100%">
-					<div class="container">
-						<p>My husband and I biking the Boise River Greenbelt</p>
-					</div>
-				</div>
+				<h1>Sign in</h1>
+				<p>Please sign in if you have an account, or register if you are new here.</p>
+
+				<form method="POST" id="signinform" action="/signin_action_page.php">
+				<label for="username">Username:</label><br>
+				<input type="text" id="username" name="username" maxlength="50" required>
+				<br>
+				<label for="password">Password:</label><br>
+				<input type="password" id="password" name="password" maxlength="128" required>
+				<br><br>
+				<input type="submit" value="Sign In">
+				</form>
+				<br><br>
 			</div>
 			
 		</section>
