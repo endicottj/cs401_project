@@ -1,5 +1,5 @@
 <?php
-require_once("db/config.php");
+require_once("../databse/config.php");
 class Dao
 {
 	/**
@@ -30,16 +30,7 @@ class Dao
 	{
 		$conn = $this->getConnection();
 		return $conn->getAttribute(constant("PDO::ATTR_CONNECTION_STATUS"));
-    }
-    
-    /**
-     * Query if user exists by checking email
-     */
-    public function getUserByEmail($email)
-    {
-        $conn = $this->getConncection();
-        return $conn->query("SELECT * FROM users WHERE email = '$email'");
-    }
+	}
 }
 
 ?>
